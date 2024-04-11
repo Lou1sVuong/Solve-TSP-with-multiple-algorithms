@@ -1,4 +1,3 @@
-// FileManager.h
 #pragma once
 
 #include <string>
@@ -8,4 +7,5 @@ class FileManager
 {
 public:
     static DistanceMatrix readMatrixFromFile(const std::string& fileName);
+    static double calculateDistance(const std::pair<double, double>& p1, const std::pair<double, double>& p2);
 };
