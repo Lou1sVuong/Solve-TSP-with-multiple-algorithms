@@ -128,19 +128,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ACO.cpp" />
+    <ClCompile Include="BacktrackingSolver.cpp" />
+    <ClCompile Include="BranchAndBoundSolver.cpp" />
+    <ClCompile Include="BruteForceSolver.cpp" />
     <ClCompile Include="city.cpp" />
     <ClCompile Include="DistanceMatrix.cpp" />
     <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="Genetic.cpp" />
+    <ClCompile Include="GreedySolver.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TSPSolver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ACO.h" />
+    <ClInclude Include="BacktrackingSolver.h" />
+    <ClInclude Include="BranchAndBoundSolver.h" />
+    <ClInclude Include="BruteForceSolver.h" />
     <ClInclude Include="city.h" />
     <ClInclude Include="DistanceMatrix.h" />
     <ClInclude Include="FileManager.h" />
     <ClInclude Include="Genetic.h" />
+    <ClInclude Include="GreedySolver.h" />
     <ClInclude Include="TSPSolver.h" />
   </ItemGroup>
   <ItemGroup>

@@ -17,6 +17,8 @@ void ACO::solve()
     double bestLength = numeric_limits<double>::max();
     vector<int> bestPath;
 
+    cout << "ACO Algorithm: " << endl;
+
     for (int iteration = 0; iteration < maxIterations; ++iteration)
     {
         vector<vector<int>> paths(numAnts, vector<int>());

@@ -36,6 +36,18 @@
     <ClCompile Include="ACO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GreedySolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForceSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BacktrackingSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BranchAndBoundSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ACO.h">
@@ -54,6 +66,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Genetic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GreedySolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteForceSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BacktrackingSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BranchAndBoundSolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

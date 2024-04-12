@@ -37,6 +37,8 @@ void GeneticAlgorithm::solve() {
     vector<int> bestChromosome;
     double bestFitness = numeric_limits<double>::max();
 
+    cout << "Genetic Algorithm: " << endl;
+
     for (int generation = 0; generation < generations; ++generation) {
         selection();
         crossover();
