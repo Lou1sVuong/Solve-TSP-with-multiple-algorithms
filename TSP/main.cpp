@@ -13,7 +13,10 @@ int main()
 
     TSPSolver solver;
 
-    solver.solveWithACO(matrix);
+   solver.solveWithACO(matrix);
+
+    solver.solveWithGA(matrix);
+
 
     return 0;
 }

@@ -131,6 +131,7 @@
     <ClCompile Include="city.cpp" />
     <ClCompile Include="DistanceMatrix.cpp" />
     <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="Genetic.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TSPSolver.cpp" />
   </ItemGroup>
@@ -139,6 +140,7 @@
     <ClInclude Include="city.h" />
     <ClInclude Include="DistanceMatrix.h" />
     <ClInclude Include="FileManager.h" />
+    <ClInclude Include="Genetic.h" />
     <ClInclude Include="TSPSolver.h" />
   </ItemGroup>
   <ItemGroup>

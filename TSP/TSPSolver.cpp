@@ -13,8 +13,11 @@ void TSPSolver::solveWithACO(const DistanceMatrix& matrix)
     aco.solve();
 }
 
-// void TSPSolver::solveWithGA(const DistanceMatrix &matrix)
-// {
-//     GeneticAlgorithm ga(matrix);
-//     ga.solve();
-// }
+void TSPSolver::solveWithGA(const DistanceMatrix& matrix)
+{
+    int populationSize = 100; // Số lượng cá thể trong quần thể
+    int generations = 200;   // Số thế hệ
+    double mutationRate = 0.1; // Tỷ lệ đột biến
+    GeneticAlgorithm ga(matrix, populationSize, generations, mutationRate);
+    ga.solve();
+}

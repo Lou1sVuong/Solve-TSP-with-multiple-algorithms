@@ -1,4 +1,4 @@
-﻿#include "ACO.h"
+#include "ACO.h"
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -19,13 +19,13 @@ void ACO::solve()
 
     for (int iteration = 0; iteration < maxIterations; ++iteration)
     {
-        vector<vector<int>> paths(numAnts, vector<int>(0));
+        vector<vector<int>> paths(numAnts, vector<int>());
         vector<double> lengths(numAnts, 0.0);
 
         for (int ant = 0; ant < numAnts; ++ant)
         {
             vector<bool> visited(matrix.size(), false);
-            int currentCity = rand() % matrix.size();
+            int currentCity = 0;  // Start from the first city for every ant
             paths[ant].push_back(currentCity);
             visited[currentCity] = true;
 
@@ -36,6 +36,9 @@ void ACO::solve()
                 visited[nextCity] = true;
                 currentCity = nextCity;
             }
+
+            // Ensure the ant returns to the starting city to complete the tour
+            paths[ant].push_back(0);
 
             lengths[ant] = calculatePathLength(paths[ant]);
             if (lengths[ant] < bestLength)
@@ -49,15 +52,15 @@ void ACO::solve()
 
         cout << "Lan lap " << iteration + 1 << ", do dai duong di ngan nhat la : " << bestLength << endl;
     }
-    
 
-    cout << bestPath[0] << " -> "; 
+    // Display the best path found
+    cout << bestPath[0];
     for (int i = 1; i < bestPath.size(); ++i) {
-        cout << bestPath[i];
-        if (i < bestPath.size() - 1) cout << " -> ";
+        cout << " -> " << bestPath[i];
     }
-    cout << " -> " << bestPath[0] << endl;
+    cout << endl;
 }
+
 
 void ACO::initializePheromones()
 {
