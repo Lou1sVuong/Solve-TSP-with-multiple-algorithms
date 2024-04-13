@@ -152,8 +152,12 @@
     <ClInclude Include="TSPSolver.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="data.txt" />
+    <Text Include="cities17.txt" />
+    <Text Include="cities26.txt" />
+    <Text Include="cities5.txt" />
     <Text Include="output.txt" />
+    <Text Include="cities15.txt" />
+    <Text Include="cities48.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

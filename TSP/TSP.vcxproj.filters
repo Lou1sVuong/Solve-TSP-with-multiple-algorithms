@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{d0b7ae60-cf9a-4ef7-8dd5-f0a418edea59}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -82,11 +85,23 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="data.txt">
-      <Filter>Source Files</Filter>
-    </Text>
     <Text Include="output.txt">
       <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="cities5.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="cities17.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="cities15.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="cities26.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="cities48.txt">
+      <Filter>data</Filter>
     </Text>
   </ItemGroup>
 </Project>

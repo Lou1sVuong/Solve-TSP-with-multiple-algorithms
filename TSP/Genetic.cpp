@@ -53,7 +53,7 @@ void GeneticAlgorithm::solve() {
                 bestChromosome = chrom;
             }
         }
-        cout << "Generation " << generation << ": Best Fitness = " << bestFitness << endl;
+        cout << "the he thu " << generation << ", do dai duong di ngan nhat la : " << bestFitness << endl;
     }
 
     cout << "Best Path: " << bestChromosome[0] ;
