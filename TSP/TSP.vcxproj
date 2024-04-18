@@ -137,6 +137,7 @@
     <ClCompile Include="Genetic.cpp" />
     <ClCompile Include="GreedySolver.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mathModel.cpp" />
     <ClCompile Include="TSPSolver.cpp" />
   </ItemGroup>
   <ItemGroup>
