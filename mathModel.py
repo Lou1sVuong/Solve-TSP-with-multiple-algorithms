@@ -27,7 +27,7 @@ def print_solution(manager, routing, solution):
 
 def main():
     # Instantiate the data problem.
-    file_path = './TSP/cities17.txt'
+    file_path = './TSP/cities5.txt'
     distance_matrix = load_distance_matrix(file_path)
 
     # Create the routing index manager.
