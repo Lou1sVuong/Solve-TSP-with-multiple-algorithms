@@ -1,6 +1,8 @@
-"# tsp-middle-lab" 
+## Solve-TSP-with-multiple-algorithms
 
-shout out to Kenny Nguyen
+<div>shout out to bro <a href="https://github.com/kennynguyen1603">Kenny Nguyen</a></div>
+<br>
+
 ```
         cout << "Available Algorithms:" << endl;
         cout << "1. ACO algorithm" << endl;
@@ -18,3 +20,17 @@ shout out to Kenny Nguyen
         cout << "4. 26 cites" << endl;
         cout << "5. 48 cites" << endl;
 ```
+
+Dataset Source : <a href="https://people.sc.fsu.edu/~jburkardt/datasets/tsp/tsp.html">Click here</a>
+<br>
+References : 
+- https://en.wikipedia.org/wiki/Travelling_salesman_problem
+- https://en.wikipedia.org/wiki/Genetic_algorithm
+- https://www.geeksforgeeks.org/genetic-algorithms/
+- https://www.geeksforgeeks.org/travelling-salesman-problem-greedy-approach/
+- https://www.geeksforgeeks.org/travelling-salesman-problem-implementation-using-backtracking/
+- https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms
+- https://stackoverflow.com/questions/41796882/aco-pheromone-update
+- https://dataworldblog.blogspot.com/2017/06/ant-colony-optimization-part-1.html
+- https://dataworldblog.blogspot.com/2017/06/graph-optimization-using-ant-colony.html
+- https://people.sc.fsu.edu/~jburkardt/datasets/tsp/tsp.html
