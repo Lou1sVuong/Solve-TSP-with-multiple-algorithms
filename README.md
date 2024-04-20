@@ -3,6 +3,14 @@
 <div>shout out to bro <a href="https://github.com/kennynguyen1603">Kenny Nguyen</a></div>
 <br>
 
+## How to use ?
+<strong>Step 1</strong>: You must have the Visual Studio IDE and install the C++ environment for it. If you don't have it, download it <a href="https://visualstudio.microsoft.com/downloads/">here</a>.
+<br/>
+<strong>Step 2</strong>: Clone my repository and run the TSP.sln file, then run the main.cpp file
+
+## Program features
+
+
 ```
         cout << "Available Algorithms:" << endl;
         cout << "1. ACO algorithm" << endl;
